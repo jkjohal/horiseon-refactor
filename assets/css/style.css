@@ -24,19 +24,15 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* changed class to reflect changes in HTML doc */
+/* condensed nav styling to one block*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-nav {
     list-style-type: none;
-}
-
-nav {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,12 +65,14 @@ p {
     margin-left: 25px;
 }
 
+/* changed class to match changes in HTML file*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* changed class to match changes in HTML file*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +84,26 @@ aside {
     background-color: #2589bd;
 }
 
+/*condensed repeating code to one block*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*condensed repeating code to one block*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*condensed repeating code to one block*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*condensed repeating code to one block*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,10 +113,12 @@ aside {
     color: #ffffff;
 }
 
+/*condensed repeating code to one block*/
 .search-engine-optimization img,  .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/*condensed repeating code to one block*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
